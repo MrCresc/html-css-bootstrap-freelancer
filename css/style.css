@@ -1,0 +1,72 @@
+body {
+  padding-top: 70px;
+}
+
+section {
+  padding: 32px 0;
+}
+/* ------------------------------------------------- */
+.ms_section-primary {
+  color: white;
+  background-color: #1abc9c;
+}
+
+.ms_section-secondary {
+  color: #2c3e50;
+  background-color: white;
+}
+
+.ms_section-secondary .title {
+  color: #333333
+}
+
+.ms_navbar {
+  background-color: #2c3e50;
+  height: 70px;
+}
+
+.ms_jumbotron {
+  padding: 32px 0;
+}
+
+.ms_portfolio-item {
+  background-color: #ba4b63;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.ms_wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ms_contactme {
+  height: 400px;
+}
+
+.ms_info {
+  padding: 32px 0;
+  color: white;
+  height: 250px;
+  background-color: #3a546d;
+}
+
+.ms_copyright {
+  padding: 32px 0;
+  color: white;
+  height: 120px;
+  background-color: #2c3e50;
+}
+
+.fa-star {
+  padding: 20px 0;
+}
+/* ------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .ms_jumbotron {
+    padding: 40px 0;
+  }
+
+}
