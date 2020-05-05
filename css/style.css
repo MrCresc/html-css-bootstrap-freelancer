@@ -1,72 +1,209 @@
 body {
-  padding-top: 70px;
+  padding-top: 100px;
+  font-family: Montserrat;
+  font-weight: 400;
 }
 
-section {
-  padding: 32px 0;
+a {
+  color: white;
+  text-decoration: none;
 }
+
 /* ------------------------------------------------- */
-.ms_section-primary {
+.ms_navbar {
+  background-color: #2c3e50;
+  height: 100px;
+  color: white;
+  line-height: 100px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.ms_navbar a {
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+.ms_desktopnav {
+  font-size: 18px;
+}
+
+.ms_burgernav i {
+  color: grey;
+  padding: 5px 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.ms_section {
+  padding: 40px 0;
+}
+
+.ms_jumbotron h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+
+.ms_jumbotron img {
+  height: 240px;
+}
+
+.ms_section.ms_primary {
   color: white;
   background-color: #1abc9c;
 }
 
-.ms_section-secondary {
+.ms_secondary {
   color: #2c3e50;
   background-color: white;
 }
 
-.ms_section-secondary .title {
+.ms_divider {
+  color: #2c3e50;
+}
+
+.ms_primary .ms_divider {
+  color: white;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.ms_secondary .title {
   color: #333333
 }
 
-.ms_navbar {
-  background-color: #2c3e50;
-  height: 70px;
-}
-
-.ms_jumbotron {
-  padding: 32px 0;
-}
-
 .ms_portfolio-item {
-  background-color: #ba4b63;
-  height: 300px;
+  text-align: center;
+}
+
+.ms_portfolio-item img {
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
   margin-bottom: 30px;
 }
 
 .ms_wrapper {
-  width: 60%;
+  max-width: 1000px;
+  width: 70%;
   margin: 0 auto;
 }
 
-.ms_contactme {
-  height: 400px;
+.ms_about p {
+  font-size: 22px;
+}
+
+.ms_btn {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px auto;
+  max-width: 160px;
+  background-color: #1abc9c;
+  padding: 10px 0;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.ms_form {
+  font-size: 20px;
+}
+
+.form-control {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 0;
+}
+
+.ms_contactme .ms_btn {
+  margin: 20px 0;
 }
 
 .ms_info {
-  padding: 32px 0;
   color: white;
-  height: 250px;
   background-color: #3a546d;
 }
 
+.ms_info li {
+  width: 45px;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.ms_info i {
+  line-height: 45px;
+  font-size: 20px;
+}
+
+hr {
+  display: inline-block;
+  height: 2px;
+  margin: 0 6px;
+  width: 15%;
+  background-color: #2c3e50;
+  vertical-align: middle;
+}
+
+.ms_primary hr {
+  color: white;
+  background-color: white;
+}
+
 .ms_copyright {
-  padding: 32px 0;
   color: white;
   height: 120px;
   background-color: #2c3e50;
 }
 
 .fa-star {
+  vertical-align: -5px;
   padding: 20px 0;
+  font-size: 25px;
+}
+
+.lightblue {
+  color: #1abc9c;
 }
 /* ------------------------------------------------- */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 991px) {
   .ms_jumbotron {
     padding: 40px 0;
   }
 
+}
+
+@media screen and (max-width: 767px) {
+  .ms_jumbotron h2{
+    font-size: 20px;
+  }
+
+  .ms_jumbotron h1 {
+    font-size: 35px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  [class*=col-] {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+  .ms_navbar {
+    font-size: 14px;
+  }
+
+  .ms_navbar a {
+    margin: 0;
+  }
 }
