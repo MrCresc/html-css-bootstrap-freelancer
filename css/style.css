@@ -155,6 +155,7 @@ hr {
 /* Contact Me Rules */
 .ms_contactme .ms_btn {
   margin: 20px 0;
+  max-width: 80px;
 }
 /* End Contact Me Rules */
 
